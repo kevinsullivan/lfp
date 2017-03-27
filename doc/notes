@@ -1,0 +1,11 @@
+Here's the setup here for documentation: http://thisdavej.com/build-an-amazing-markdown-editor-using-visual-studio-code-and-pandoc/
+
+For the ccc parts, see http://benjam.info/panam/
+
+pandoc --css=styling.css -V lang=en -V highlighting-css= --mathjax \
+       --smart --to=html5 input.md -o output.html
+
+or, if you don’t need all the fancy bells-and-whistles,
+
+pandoc --css=styling.css --to=html5 input.md -o output.html
+
