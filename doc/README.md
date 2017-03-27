@@ -6,3 +6,14 @@ This is:
 * wild
 * wicked
 * neat
+
+And here's some Lean
+
+```lean
+namespace cs1
+
+inductive unit: Type 
+| star: unit
+
+end cs1
+```
